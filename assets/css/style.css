@@ -3842,15 +3842,15 @@ img {
 
 .latest-projects-section .inner .details,
 .latest-projects-section-s2 .inner .details {
-  background: rgba(2, 13, 38, 0.9);
+  background: rgba(2, 13, 38, 0.7);
   width: 100%;
   height: 100%;
   padding: 50px 35px;
   position: absolute;
   left: 0;
   top: 0;
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -3868,8 +3868,8 @@ img {
 .latest-projects-section .inner .arrow a,
 .latest-projects-section-s2 .inner .arrow a {
   color: #fff;
-  margin-left: -15px;
-  opacity: 0;
+  margin-left: 0;
+  opacity: 1;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -3885,8 +3885,8 @@ img {
 .latest-projects-section .inner .info,
 .latest-projects-section-s2 .inner .info {
   position: absolute;
-  bottom: 0;
-  opacity: 0;
+  bottom: 35px;
+  opacity: 1;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -3932,15 +3932,15 @@ img {
 
 .latest-projects-section .grid:hover .details,
 .latest-projects-section-s2 .grid:hover .details {
-  opacity: 1;
-  visibility: visible;
+  opacity: 0;
+  visibility: hidden;
   top: 0;
 }
 
 .latest-projects-section .grid:hover .details .arrow a,
 .latest-projects-section-s2 .grid:hover .details .arrow a {
-  margin-left: 0;
-  opacity: 1;
+  margin-left: -15px;
+  opacity: 0;
   -webkit-transition-delay: 0.3s;
   -o-transition-delay: 0.3s;
   transition-delay: 0.3s;
@@ -3948,8 +3948,8 @@ img {
 
 .latest-projects-section .grid:hover .details .info,
 .latest-projects-section-s2 .grid:hover .details .info {
-  bottom: 35px;
-  opacity: 1;
+  bottom: 0;
+  opacity: 0;
   -webkit-transition-delay: 0.3s;
   -o-transition-delay: 0.3s;
   transition-delay: 0.3s;
