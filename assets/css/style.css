@@ -4349,7 +4349,7 @@ img {
 }
 
 .testimonials-section .client-pic {
-  max-width: 90px;
+  max-width: 120px;
   margin: 0 auto;
   position: relative;
 }
@@ -4378,7 +4378,7 @@ img {
 
 .testimonials-section .client-pic img {
   width: auto;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .testimonials-section .client-quote {
