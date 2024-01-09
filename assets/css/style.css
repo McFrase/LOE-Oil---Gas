@@ -7215,3 +7215,46 @@ img {
 }
 
 /*# sourceMappingURL=style.css.map */
+.mobileNavigation {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 130px;
+  height: auto;
+}
+
+.navMenuCustom {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  padding-left: 0;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.closeLink a {
+  font-size: 14px;
+  font-size: 0.93333rem;
+  padding: 40px 15px;
+  color: #151222;
+}
+
+@media screen and (max-width: 768px) {
+  .mobileNavigation {
+    display: flex;
+    position: sticky;
+  }
+  .navigation {
+    display: none;
+  }
+}
