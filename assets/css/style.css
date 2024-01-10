@@ -141,6 +141,7 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: #f90920;
 }
 
 /*--------------------------------------------------------------
@@ -7257,4 +7258,8 @@ img {
   .navigation {
     display: none;
   }
+}
+
+.footerLink {
+  color: #c2c4c8;
 }
